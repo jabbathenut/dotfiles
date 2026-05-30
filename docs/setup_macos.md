@@ -109,7 +109,7 @@ pyenv install 3.x.x
 pyenv global 3.x.x
 ```
 
-- Exit terminal and re-open to capture the new installed python information
+- Exit terminal and re-open to utilize the new installed python information
 
 #### Nerd Font
 

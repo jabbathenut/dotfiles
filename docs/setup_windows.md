@@ -2,6 +2,14 @@
 
 ### Windows
 
+#### Powershell
+
+- Install Powershell 7
+
+```bash
+winget install --id Microsoft.Powershell --source winget
+```
+
 #### Scoop
 
 - Install Scoop
@@ -92,6 +100,8 @@ PYENV_HOME: %USERPROFILE%\.pyenv\pyenv-win
 %USERPROFILE%\.pyenv-win-venv\bin
 ```
 
+- Exit terminal and re-open to utilize the new pyenv environment variables
+
 - Install Python (version 3.x.x)
 
 ```bash
@@ -103,8 +113,6 @@ pyenv install 3.x.x
 ```bash
 pyenv global 3.x.x
 ```
-
-- Exit terminal and re-open to capture the new installed python information
 
 - Disable Windows 11 default Python app execution aliases
   - Go to Settings >> Apps >> Advanced app settings >> App execution aliases
@@ -238,3 +246,15 @@ scoop install extras/universal-ctags extras/lazygit
 # Neovim
 $env:XDG_CONFIG_HOME = "$HOME\.config"
 ```
+
+#### Adjust Powershell Appearance
+
+- Add Kanagawa color scheme to Windows Terminal
+  - Download Kanagaws color scheme json file from the following location
+    - https://github.com/rebelot/kanagawa.nvim/blob/master/extras/windows-terminal/kanagawa.json
+  - In Windows Terminal, go to Settings and select "Open JSON File" at the bottom
+  - Copy the Kanagawa color scheme into the section entitled "schemes"
+  - Go to Settings >> Profiles >> Defaults >> Appearance and make the following adjustments:
+    - "Color scheme" = KanagawaWave
+    - "Font face" = JetBrainsMono Nerd Font
+    - "Background opacity" = 95%
