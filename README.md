@@ -1,4 +1,10 @@
-## Neovim C/C++ Development Environment Setup
+## Neovim 0.11+ C++/Python Development Environment Setup (MacOS and Windows)
+
+_NOTE: These dotfiles are designed to be managed by Chezmoi._
+
+This is my personal repository of configuration files for a Neovim 0.11+ C++/Python development environment. While it
+works well for me and my workflow, it may not be what you expect or prefer. Please use this configuration with that in
+mind.
 
 ### Environment Setup Instructions
 

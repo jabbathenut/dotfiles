@@ -7,7 +7,7 @@
 - Install Homebrew
 
 ```zsh
-/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 - Execute the following commands
@@ -69,7 +69,7 @@ chezmoi init https://github.com/jabbathenut/dotfiles.git
 - Install dotfiles to their target locations
 
 ```zsh
-sudo chezmoi apply
+chezmoi apply
 ```
 
 #### Python
@@ -108,6 +108,8 @@ pyenv install 3.x.x
 ```zsh
 pyenv global 3.x.x
 ```
+
+- Exit terminal and re-open to capture the new installed python information
 
 #### Nerd Font
 

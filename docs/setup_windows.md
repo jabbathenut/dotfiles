@@ -104,6 +104,8 @@ pyenv install 3.x.x
 pyenv global 3.x.x
 ```
 
+- Exit terminal and re-open to capture the new installed python information
+
 - Disable Windows 11 default Python app execution aliases
   - Go to Settings >> Apps >> Advanced app settings >> App execution aliases
   - Turn off the following items, if they exist
