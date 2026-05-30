@@ -1,0 +1,17 @@
+# Ignore non-Windows items for Windows
+{{ if eq .chezmoi.os "windows" }}
+.zshrc
+.config/neocmakelsp/**
+.config/ghostty/**
+{{ end }}
+
+# Ignore Windows-only items for non-Windows
+{{ if ne .chezmoi.os "windows" }}
+Documents/**
+AppData/**
+{{ end }}
+
+# Ignore for all operating systems
+docs/**
+LICENSE
+README.md
