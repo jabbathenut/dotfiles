@@ -143,6 +143,14 @@ eval "$(starship init zsh)"
 brew install --cask ghostty
 ```
 
+#### WezTerm (optional)
+
+- Install WezTerm with Homebrew
+
+```zsh
+brew install --cask wezterm@nightly
+```
+
 #### Eza
 
 - Install Eza with Homebrew

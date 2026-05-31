@@ -145,6 +145,13 @@ $env:STARSHIP_CONFIG = "$HOME\.config\starship\starship.toml"
 Invoke-Expression (&starship init powershell)
 ```
 
+#### WezTerm
+
+```bash
+scoop bucket add extras
+scoop install wezterm
+```
+
 #### Eza
 
 - Install Eza with Scoop
@@ -249,12 +256,12 @@ $env:XDG_CONFIG_HOME = "$HOME\.config"
 
 #### Adjust Powershell Appearance
 
-- Add Kanagawa color scheme to Windows Terminal
-  - Download Kanagaws color scheme json file from the following location
-    - https://github.com/rebelot/kanagawa.nvim/blob/master/extras/windows-terminal/kanagawa.json
+- Add Catppuccin Mocha color scheme to Windows Terminal
+  - Download Catppuccin Mocha color scheme json file from the following location
+    - https://github.com/catppuccin/windows-terminal/blob/main/mocha.json
   - In Windows Terminal, go to Settings and select "Open JSON File" at the bottom
-  - Copy the Kanagawa color scheme into the section entitled "schemes"
+  - Copy the Cappuccin Mocha color scheme into the section entitled "schemes"
   - Go to Settings >> Profiles >> Defaults >> Appearance and make the following adjustments:
-    - "Color scheme" = KanagawaWave
+    - "Color scheme" = Catppuccin Mocha
     - "Font face" = JetBrainsMono Nerd Font
     - "Background opacity" = 95%
